@@ -4,7 +4,7 @@ if array.length == 1
 elsif array.length == 2 
  array.join(" and ")
 elsif array.length ==3
- new_array = array.each_slice(2)
+ new_array = array.each_slice(2).to_a
  new_array
  
 else
