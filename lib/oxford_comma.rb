@@ -4,7 +4,7 @@ if array.length == 1
 elsif array.length == 2 
  array.join(" and ")
 elsif array.length ==3
- return array[0:1].split(",")+", and "+array[2]
+ return array.eachslice
  
 else
 end
