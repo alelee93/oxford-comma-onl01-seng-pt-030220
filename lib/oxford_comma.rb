@@ -8,7 +8,7 @@ elsif array.length ==3
  new_array[0].join(", ") << ", and " << new_array[1].join
  
 else
-  new_array = array.eachslice(array.length-1).to_a
+  new_array = array.each_slice(array.length-1).to_a
   new_array[0].join(", ") << ", and " << new_array[1].join
 
 end
