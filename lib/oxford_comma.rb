@@ -4,7 +4,8 @@ if array.length == 1
 elsif array.length == 2 
  array.join(" and ")
 elsif array.length ==3
-
+ array[0]..array[1].split(",")+array[2]("",and")
+ 
 else
 end
 end
